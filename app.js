@@ -25,7 +25,7 @@ if (process.env.PORT) {
 
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Intro to DevOps');
+  res.send('This is my first update');
 });
 
 app.listen(PORT);
